@@ -4,29 +4,30 @@ p{
 }
 
 h2{
-    margin-top: 100px;
     text-align: center;
 }
 
-#contact_info {
-    float: left;
-    position: absolute;
-    left: 15%;
 
-    width: 40%;
-    height: 525px;
-}
-
-
-.column_div {
-    margin-top: -50px;
-    margin: 0 auto;
+#how_can_we_help_you{
     width: 90%;
-    height: 500px;
+    height: auto;
 
-    /* background-color: wheat; */
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
-.column_div p{
+
+
+.column_styling col{
+    border-style: solid;
+    border-width: medium;
+    border-color: #025955;
+    border-radius: 10px;
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.column_styling p{
     margin-top: 40px;
     padding: 8px; 
 
@@ -43,23 +44,9 @@ h2{
     margin-left: auto;
     margin-right: auto;
 }
-.column_div >div{
-    float: left;
-    width: 35%;
-    height: auto;
 
-    /* background-color: cornflowerblue; */
-}
 
-.Lcolumn_div {
-    position: absolute;
-    left: 15%;
-
-    border-right-style: dotted;
-}
-.Rcolumn_div {
-    position: absolute;
-    right: 15%;
-
-    border-left-style: dotted;
+button a:hover{
+    text-decoration: none;
+    color: white;
 }
