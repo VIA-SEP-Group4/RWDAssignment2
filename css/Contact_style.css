@@ -7,6 +7,10 @@ h2{
     text-align: center;
 }
 
+h3{
+    color: #025955;
+}
+
 
 #how_can_we_help_you{
     width: 90%;
@@ -17,12 +21,18 @@ h2{
     margin-bottom: 100px;
 }
 
-
-.container .row >div{
-    border-style: solid;
-    border-width: medium;
+.container >div{
+    padding: 50px;
+    background-color: rgb(220,220,220, 0.3);
+}
+.container >div>div>div>div{
+    padding-left: 10px;
+    border-left-style: solid;
+    border-width: 2px;
     border-color: #025955;
-    border-radius: 10px;
+    border-radius: 5px;
+
+    background-color: rgb(220,220,220, 0.75);
 }
 
 
