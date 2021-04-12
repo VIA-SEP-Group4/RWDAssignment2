@@ -75,15 +75,13 @@ span>a{
     cursor: pointer;
     margin: 5px;
     font-family: 'Montserrat', sans-serif;
-  }
-  
+}
 .button span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
-  
 .button span:after {
     content: '\00bb';
     position: absolute;
@@ -92,69 +90,34 @@ span>a{
     right: -20px;
     transition: 0.5s;
 }
-  
 .button:hover span {
     padding-right: 25px;
 }
-
-/*ID selectors*/
-
-#top_container{
-    background-color: #78C4D4;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: auto;
-    padding-bottom: 10px;
-    margin-bottom: 300px;
-    z-index: 2;
-    opacity: 0.9;
-}
-
-#topbar{
-    display: inline-block;
-    position: absolute;
-    right: 0;
-}
-#topbar li{
-    display: inline;
-    padding: 20px 20px;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
-}
-#topbar li:hover{
-    background-color: #025955;
-} 
-#topbar li >a{
-    color: black;
-}
-#topbar li >a:hover{
-    color: white;
-}
-
-
-#logo {
-    display: inline;
-    margin-left: 30px;
-    
-    font-family: 'Permanent Marker', cursive;
-}
-
-#logo > a{
-    color: #025955;
-}
-#logo > a:hover{
-    color: wheat;
-}
-
-
-  
 .button:hover span:after {
     opacity: 1;
     right: 0;
 }
 
 
+
+nav {
+    background-color: #78C4D4;
+    opacity: 0.9;
+}
+nav a{
+    color: black;
+}
+nav a:hover{
+    color: white;
+}
+#logo {
+    margin-left: 30px;
+    color: #025955;
+    font-family: 'Permanent Marker', cursive;
+}
+#logo:hover{
+    color: wheat;
+}
 
 
 #bottom_container{
