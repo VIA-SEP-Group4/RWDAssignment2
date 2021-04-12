@@ -18,35 +18,37 @@ h2{
 }
 
 
-.column_styling col{
+.container .row >div{
     border-style: solid;
     border-width: medium;
     border-color: #025955;
     border-radius: 10px;
-
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.column_styling p{
-    margin-top: 40px;
-    padding: 8px; 
-
-    font-size: 18px;
-    color: black;
-    background-color: white;
-
-    border-style: solid;
-    border-width: medium;
-    border-color: #025955;
-    border-radius: 10px;
-
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
-button a:hover{
+.button a:hover{
     text-decoration: none;
     color: white;
+}
+
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .flex-container >button {
+        width: 50%;
+        height: auto;
+    }
+}
+.flex-container >button {
+    margin: 10px;
+    font-size: 14px;
 }
