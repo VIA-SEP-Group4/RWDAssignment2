@@ -13,11 +13,11 @@ body{
 }
 
 hr{
-    border: dotted grey 6px;
-    border-bottom: none;
+    border-top-style: dotted;
+    border-color: gray;
+    border-width: 6px;
     width:5%;
-    height: 6px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 
 a{ 
@@ -58,13 +58,13 @@ span>a{
     color: white;
 }
 .bar-element:hover{
-    background-color: #025955;
+    background-color: #005F60;
 } 
 
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #025955;
+    background-color: #005F60;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -98,16 +98,35 @@ span>a{
     right: 0;
 }
 
+
+/*Navbar + logo - additional styling*/
 nav{
-    opacity: 0.9;
+    background-color: rgb(36,158,160, 0.9);
+}
+nav >div a{
+    color: black;
+}
+nav >div a:hover{
+    color: white;
+    background-color: #005F60;
+
+    border-style: solid;
+    border-color: #005F60;
+    border-radius: 3px;
 }
 #logo {
+    color: #005F60;
     font-family: 'Permanent Marker', cursive;
+    margin: -10% 0% -10% 10%;
+}
+#logo:hover{
+    color: wheat;
 }
 
 
+/*Footer*/
 #bottom_container{
-    background-color: #78C4D4;
+    background-color: rgb(36,158,160);
     padding-top: 30px;
     text-align: center;
     width: 100%;
