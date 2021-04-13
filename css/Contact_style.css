@@ -1,64 +1,60 @@
-
-p{
-    font-weight: normal !important;
+p {
+  font-weight: normal !important;
 }
 
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
-h3{
-    color: #025955;
+h3 {
+  color: #025955;
 }
 
+#how_can_we_help_you {
+  width: 90%;
+  height: auto;
 
-#how_can_we_help_you{
-    width: 90%;
-    height: auto;
-
-    margin: 0 auto;
-    margin-top: 100px;
-    margin-bottom: 100px;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.container >div{
-    padding: 50px;
-    background-color: rgb(220,220,220, 0.3);
+.container > div {
+  padding: 50px;
+  background-color: rgb(220, 220, 220, 0.3);
 }
-.container >div>div>div>div{
-    padding-left: 10px;
-    border-left-style: solid;
-    border-width: 2px;
-    border-color: #005F60;
-    border-radius: 5px;
+.container > div > div > div > div {
+  padding-left: 10px;
+  border-left-style: solid;
+  border-width: 2px;
+  border-color: #005f60;
+  border-radius: 5px;
 
-    background-color: rgb(220,220,220, 0.75);
-}
-
-
-.button a:hover{
-    text-decoration: none;
-    color: white;
+  background-color: rgb(220, 220, 220, 0.75);
 }
 
+.button a:hover {
+  text-decoration: none;
+  color: white;
+}
 
 .flex-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 /* Responsive layout - makes a one column-layout instead of two-column layout */
 @media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-      align-items: center;
-    }
-    .flex-container >button {
-        width: 50%;
-        height: auto;
-    }
+  .flex-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .flex-container > button {
+    width: 50%;
+    height: auto;
+  }
 }
-.flex-container >button {
-    margin: 10px;
-    font-size: 14px;
+.flex-container > button {
+  margin: 10px;
+  font-size: 14px;
 }
