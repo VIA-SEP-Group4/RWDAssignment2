@@ -7,7 +7,7 @@
 /* Tag selectors */
 body {
   margin: 0px;
-  background-color: white;
+  background-color: #f4f9f9;
   width: 100%;
   height: auto;
 }
@@ -17,7 +17,6 @@ hr {
   border-color: gray;
   border-width: 6px;
   width: 5%;
-  margin: 0 auto;
 }
 
 a {
@@ -37,84 +36,23 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
 }
-
-span > a {
-  color: white;
-}
-
-/*Class selectors*/
-
-.bar-element {
-  display: inline;
-  padding: 20px 20px;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-}
-
-.bar-element > a {
-  color: black;
-}
-.bar-element > a:hover {
-  color: white;
-}
-.bar-element:hover {
-  background-color: #005f60;
-}
-
-.button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #005f60;
-  border: none;
-  color: #ffffff;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  width: auto;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  font-family: "Montserrat", sans-serif;
-}
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-.button span:after {
-  content: "\00bb";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-.button:hover span {
-  padding-right: 25px;
-}
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
 /*Navbar + logo - additional styling*/
 nav {
-  background-color: rgb(36, 158, 160, 0.9);
+  background-color: 	rgb(38,139,7,0.95);
 }
 nav > div a {
   color: black;
 }
 nav > div a:hover {
-  color: white;
-  background-color: #005f60;
+  color: wheat;
+  background-color: #0a3b0e;
 
   border-style: solid;
-  border-color: #005f60;
+  border-color: #0a3b0e;
   border-radius: 3px;
 }
 #logo {
-  color: #005f60;
+  color: #0a3b0e;
   font-family: "Permanent Marker", cursive;
   margin: -10% 0% -10% 10%;
 }
@@ -123,24 +61,6 @@ nav > div a:hover {
 }
 
 /*Footer*/
-#bottom_container {
-  background-color: rgb(36, 158, 160);
-  padding-top: 30px;
-  text-align: center;
-  width: 100%;
-  height: auto;
-
-  position: static;
-  bottom: 0px;
-}
-#bottom_container > p {
-  margin-bottom: 0px;
-}
-#bottom_container > a {
-  color: #025955;
-  margin-left: 10px;
-}
-#bottom_container > a:hover {
-  color: white;
-  text-decoration: underline;
+.footer{
+  background-color:rgb(19,109,21)
 }
