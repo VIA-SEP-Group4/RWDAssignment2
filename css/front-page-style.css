@@ -9,18 +9,6 @@ hr{
     
     margin: 100px auto;
 }
-
-#logo {
-    
-    
-    font-family: 'Permanent Marker', cursive;
-    color: #025955;
-}
-
-
-#logo:hover{
-    color: wheat;
-}
 h2{
     
     font-family:  'Lora', serif; 
@@ -40,22 +28,36 @@ p{
 }
 .jumbotron{
     background-color:transparent !important;
+    
 }
 .jumbotron button{
     text-align: center;
 }
-.navbar-custom {
-    background-color: #78C4D4;
+nav 
+{
+    background-color: rgb(36, 158, 160, 0.9);
 }
-.navbar-custom .navbar-nav .nav-link {
-    color: rgba(31, 29, 29, 0.5);
+nav > div a {
+    color: black;
+  }
+nav > div a:hover {
+    color: white;
+    background-color: #005f60;
+  
+    border-style: solid;
+    border-color: #005f60;
+    border-radius: 3px;
 }
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link {
-    color: #ffffff;
+#logo {
+    color: #005f60;
+    font-family: "Permanent Marker", cursive;
+    margin: -10% 0% -10% 10%;
+}
+#logo:hover {
+    color: wheat;
 }
 .top{
-    margin-top: 50px;
+    margin: 25px 100px;
 }
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(2, 89, 85, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -92,5 +94,3 @@ p{
 .footer{
     background-color:#78C4D4
 }
-
-    
