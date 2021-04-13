@@ -1,59 +1,56 @@
 
 
 #first-image{
-    height: 35%;
-    width: 35%;
+    height: 100%;
+    width: 100%;
     border-radius: 20px;
-    margin-left: 60px;
-    float: left;
-    position: relative;
+    padding: 10px;
 }
 
 #about{
     text-align:right;
     line-height: 2;
-    margin-right: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
          
 }
 
 #about>p{
     width: 50%;
-    margin: 0px;
-    display: inline-block;
-}
+    }
+
 #about>.button,#about2>.button{  
     width:fit-content;
     font-size:inherit;
     margin: 30px auto 30px auto;
 }
 #second-image{
-    height: 40%;
-    width: 40%;
+    height: 100%;
+    width: 100%;
     border-radius: 20px;
-    margin-right: 60px;
-    float: right;
-    position: relative;
+    
 }
 #about2{
     text-align:left;
     line-height: 2;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 100px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 #about2>p{
     width: 50%;
-    margin: 0px;
-    display: inline-block;
 }
-#middle-container{
+
+.middle-container{
     margin-top: 200px ;   
 }
 
 #manager{
-    margin-top: 200px;
+    margin-top: 100px;
     text-align: center;
-    position: relative;
+
 }
 #manager>h2{
     font-size: 40px;
@@ -61,18 +58,17 @@
 #manager>p{
     width: 80%;
     text-align: center;
-    position: relative;
     margin: 0px;
-    display: inline-block;
+    padding: 10px;
 }
 #manager>img{
-    width: 30%;
-    border-radius: 20px
+    width: 100%;
+    border-radius: 20px;
+ 
 }
 #manager>.button{
     width:fit-content;
     font-size:inherit;
-    display: inline-block;
     margin: 100px;
 }
 
