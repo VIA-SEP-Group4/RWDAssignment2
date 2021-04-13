@@ -74,13 +74,13 @@ h2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    position: absolute;
     left: 0px;
     top: 225px;
     text-align: center;
     font-size: 30px;
     text-shadow: 2px 2px 2px black;
     width: 100%;
+    margin-bottom: 300px;
 }
 
 .match:hover {
