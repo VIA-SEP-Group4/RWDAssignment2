@@ -13,37 +13,60 @@
         <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&family=Montserrat&family=Permanent+Marker&family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar  navbar-expand-sm navbar-custom  fixed-top ">
-            <a id="logo" class="navbar-brand" href="index.html">VIA Club</a>
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
+
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+                <h3 id="logo">VIA Club</h3>
+            </a>
+    
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class=" navbar-nav " >
-                    <li class="nav-item"><a class="nav-link" href="Matches.html">Matches</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Players.html">Players</a></li>
-                    <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+    
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Matches.html">Matches</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Players.html">Players</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Us</a>
+                    </li>
                 </ul>
             </div>
-            
+    
         </nav>
-        <div class="container top">
-            <div class="jumbotron ">
+        <div class="top">
+            <div class="jumbotron">
                 <h2>Announcements & News</h2>
                 <h3 >VIA Club turns 100!!!</h3>
+                <img class="d-block h-75 img-thumbnail img-fluid float-lg-left mr-3 " src="photos/viaturns100.png">
                 <p> We are proud to celebrate the 100th anniversary of The Vellcity Indoor Athletics Club, known to us most commonly today as VIAClub. Happy birthday!</p> 
                 <p> P.S. This photo is really 100 years old and has been kept in the best condition ever since! Who would've thought that VIA Club would have such longevity!!!</p>
-                <img class="d-block img-thumbnail img-fluid" src="photos/viaturns100.png">
-                <br>
+                
                 <a class="btn btn-success" href="About.html" role="button">Read more</a>
             </div>
+            
         </div>
         
+        
+        <h2 class="text-center">Upcoming Matches</h2>
+        <br>
         <div id="myCarousel" class="carousel slide " data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block  img-fluid  mx-auto" src="photos/barca.jpg" alt="barca">
+                    <img class="d-block   img-fluid  mx-auto" src="photos/barca.jpg" alt="barca">
                     <div class="carousel-caption d-none d-block">
                         <h5>VIA Club vs FC Barcelona</h5>
                         <h5>League Match</h5>
@@ -61,7 +84,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block  img-fluid mx-auto" src="photos/chelsea.PNG" alt="chelsea">
+                    <img class="d-block   img-fluid mx-auto" src="photos/chelsea.PNG" alt="chelsea">
                     <div class="carousel-caption d-none d-block">
                         <h5>VIA Club vs Chelsea</h5>
                         <h5>League Match</h5>
