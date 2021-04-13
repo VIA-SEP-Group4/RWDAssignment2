@@ -7,7 +7,7 @@ h2 {
 }
 
 h3 {
-  color: #025955;
+  color: #0a3b0e;
 }
 
 #how_can_we_help_you {
@@ -27,7 +27,7 @@ h3 {
   padding-left: 10px;
   border-left-style: solid;
   border-width: 2px;
-  border-color: #005f60;
+  border-color: #0a3b0e;
   border-radius: 5px;
 
   background-color: rgb(220, 220, 220, 0.75);
@@ -54,7 +54,7 @@ h3 {
     height: auto;
   }
 }
-.flex-container > button {
+.flex-container > a {
   margin: 10px;
   font-size: 14px;
 }
