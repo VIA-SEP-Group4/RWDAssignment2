@@ -10,7 +10,7 @@ body {
     /*background-color: #fafafa;*/
     background-image: url("images/ground3.jpg");
     background-size: cover;
-    max-width: 2330px;
+    /*max-width: 2330px;*/
 }
 
 h2{
@@ -120,10 +120,14 @@ h2{
 }
 
 .match {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /*flex-wrap: wrap;*/
     position: relative;
     top: 50px;
     /*left: 60px;*/
-    color: #78C4D4;
+    color: wheat;
     float: left;
     width: 600px;
     height: 450px;
@@ -132,10 +136,13 @@ h2{
 }
 
 .match2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     position: relative;
     top: 50px;
     /*left: 60px;*/
-    color: #78C4D4;
+    color: wheat;
     float: left;
     width: 600px;
     height: 450px;
@@ -144,10 +151,13 @@ h2{
 }
 
 .match3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     position: relative;
     top: 50px;
     /*left: 60px;*/
-    color: #78C4D4;
+    color: wheat;
     float: left;
     width: 600px;
     height: 450px;
@@ -156,10 +166,13 @@ h2{
 }
 
 .match4 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     position: relative;
     top: 50px;
     /*left: 60px;*/
-    color: #78C4D4;
+    color: wheat;
     float: left;
     width: 600px;
     height: 450px;
@@ -168,10 +181,13 @@ h2{
 }
 
 .match5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     position: relative;
     top: 50px;
     /*left: 60px;*/
-    color: #78C4D4;
+    color: wheat;
     float: left;
     width: 600px;
     height: 450px;
@@ -180,10 +196,13 @@ h2{
 }
 
 .match6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     position: relative;
     top: 50px;
     /*left: 60px;*/
-    color: #78C4D4;
+    color: wheat;
     float: left;
     width: 600px;
     height: 450px;
@@ -222,10 +241,10 @@ h3 {
 
 @media screen and (max-width: 600px)
 {
-    div.match {width: 80% ; height: 280px ; font-size: 20px }
-    div.match2 {width: 80% ; height: 280px ; font-size: 20px }
-    div.match3 {width: 80% ; height: 280px ; font-size: 20px }
-    div.match4 {width: 80% ; height: 280px ; font-size: 20px }
-    div.match5 {width: 80% ; height: 280px ; font-size: 20px }
-    div.match6 {width: 80% ; height: 280px ; font-size: 20px }
-}
+    div.match {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px }
+    div.match2 {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px }
+    div.match3 {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px }
+    div.match4 {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px } 
+    div.match5 {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px }
+    div.match6 {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px }
+}   
