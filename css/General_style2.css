@@ -25,7 +25,10 @@ a {
 
 h2 {
   font-family: "Lora", serif;
-  font-size: xx-large;
+}
+.custom_h2 {
+  margin: 100px 0px 100px 0px;
+  font-size: 50px;
 }
 
 h3 {
