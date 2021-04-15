@@ -1,31 +1,5 @@
 
-body{
-    background-color: #ccf2f4;
-}
-hr{
-    border: dotted grey 6px;
-    border-bottom: none;
-    width:4%;
-    
-    margin: 100px auto;
-}
-h2{
-    
-    font-family:  'Lora', serif; 
-}
 
-h3{
-    font-family: 'Lora', serif;
-}
-h5{
-    font-family: 'Lora', serif;
-    color: wheat;
-}
-p{
-    
-    font-family:  'Poppins', sans-serif;
-    
-}
 .jumbotron{
     background-color:transparent !important;
     

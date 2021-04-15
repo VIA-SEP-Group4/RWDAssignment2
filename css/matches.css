@@ -1,0 +1,81 @@
+body {
+    /*background-color: #fafafa;*/
+    background-image: url("images/ground3.jpg");
+    background-size: cover;
+    /*max-width: 2330px;*/
+}
+
+h2{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.par{
+  font-family: 'Lora', serif;
+}
+
+.elements {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    left: 0px;
+    top: 225px;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px black;
+    width: 100%;
+    margin-bottom: 300px;
+}
+
+.match:hover {
+    float: left;
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.match {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    /*left: 60px;*/
+    color: wheat;
+    float: left;
+    width: 600px;
+    height: 450px;
+    transition: transform .2s;
+}
+
+#first {
+    background-image: url("../photos/barca.jpg");
+}
+
+#second {
+    background-image: url("../photos/real.jpg");
+}
+
+#third {
+    background-image: url("../photos/chelsea.PNG");
+}
+
+#fourth {
+    background-image: url("../photos/juve.jpg");
+}
+
+#fifth {
+    background-image: url("../photos/bayern.jpg");
+}
+
+#sixth {
+    background-image: url("../photos/liver.jpg");
+}
+
+h3 {
+    padding-top: 5px;
+}
+
+@media screen and (max-width: 600px)
+{
+    div.match {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px }
+}   
