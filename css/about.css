@@ -4,12 +4,17 @@
     border-radius: 20px;
     padding: 10px;
 }
+.custom_h2{
+    text-align:center;
+}
 #about{
     text-align:right;
     line-height: 2;
     margin-right: 30px;
     margin-left: 30px;    
 }
+
+
 #about>p{
     width: 50%;
 }
