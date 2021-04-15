@@ -39,12 +39,14 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: bolder;
 }
+
 /*Navbar + logo - additional styling*/
 nav {
   background-color: rgb(38, 139, 7, 0.95);
 }
 nav > div a {
   color: black;
+  transition: transform 0.5s;
 }
 nav > div a:hover {
   color: wheat;
@@ -53,14 +55,20 @@ nav > div a:hover {
   border-style: solid;
   border-color: #0a3b0e;
   border-radius: 3px;
+
+  transform: scale(1.2);
 }
 #logo {
   color: #0a3b0e;
   font-family: "Permanent Marker", cursive;
   margin: -10% 0% -10% 10%;
+
+  transition: transform 0.5s;
 }
 #logo:hover {
   color: wheat;
+
+  transform: scale(1.2);
 }
 
 /*Footer*/
