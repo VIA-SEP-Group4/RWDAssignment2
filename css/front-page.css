@@ -1,5 +1,5 @@
 #main_heading {
-  background-image: url("photos/logo-backgrnd5.png");
+  background-image: url("/photos/logo-backgrnd5.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,10 +12,11 @@
   justify-content: center;
   align-items: center;
 
-  color: white;
+  /*color: white;*/
 }
 #main_heading > p {
   font-size: 30px;
+  color: white;
 }
 
 .jumbotron {
