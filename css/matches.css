@@ -78,9 +78,4 @@ h3 {
 @media screen and (max-width: 600px)
 {
     div.match {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px }
-    div.match2 {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px }
-    div.match3 {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px }
-    div.match4 {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px } 
-    div.match5 {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px }
-    div.match6 {width: 80% ; height: 280px ; font-size: 20px ; margin-bottom: 20px }
 }   
