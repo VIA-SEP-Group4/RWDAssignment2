@@ -46,6 +46,10 @@ nav {
 }
 nav > div a {
   color: black;
+
+  border-style: solid;
+  border-color: rgb(38, 139, 7, 0);
+
   transition: transform 0.5s;
 }
 nav > div a:hover {
