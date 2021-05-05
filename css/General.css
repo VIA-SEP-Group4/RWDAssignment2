@@ -42,13 +42,13 @@ p {
 
 /*Navbar + logo - additional styling*/
 nav {
-  background-color: rgb(38, 139, 7, 0.95);
+  background-color: rgba(38, 139, 7, 0.95);
 }
 nav > div a {
   color: black;
 
   border-style: solid;
-  border-color: rgb(38, 139, 7, 0);
+  border-color: rgba(38, 139, 7, 0);
 
   transition: transform 0.5s;
 }

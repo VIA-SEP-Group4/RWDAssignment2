@@ -21,7 +21,7 @@ h3 {
 
 .container > div {
   padding: 50px;
-  background-color: rgb(220, 220, 220, 0.3);
+  background-color: rgba(220, 220, 220, 0.3);
 }
 .container > div > div > div > div {
   padding-left: 10px;
@@ -30,7 +30,7 @@ h3 {
   border-color: #0a3b0e;
   border-radius: 5px;
 
-  background-color: rgb(220, 220, 220, 0.75);
+  background-color: rgba(220, 220, 220, 0.75);
 }
 
 .button a:hover {
