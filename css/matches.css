@@ -7,7 +7,7 @@ h2 {
   font-family: "Lora", serif;
 }
 
-.elements {
+#elements {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -39,7 +39,6 @@ h2 {
   height: 450px;
   transition: transform 0.2s;
 }
-
 #first {
   background-image: url("../photos/barca.jpg");
 }
@@ -63,7 +62,6 @@ h2 {
 #sixth {
   background-image: url("../photos/liver.jpg");
 }
-
 h3 {
   padding-top: 5px;
 }

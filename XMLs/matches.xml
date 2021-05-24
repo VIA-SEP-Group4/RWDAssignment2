@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matches>
+    <match>
+        <type>League</type>
+        <place>Barcelona</place>
+        <opponent>FC Barcelona</opponent>
+        <time>11:30</time>
+    </match>
+    <match>
+        <type>Friendly</type>
+        <place>Liverpool</place>
+        <opponent>Liverpool</opponent>
+        <time>12:30</time>
+    </match>
+    <match>
+        <type>Friendly</type>
+        <place>Liverpool</place>
+        <opponent>Liverpool</opponent>
+        <time>12:30</time>
+    </match>
+    <match>
+        <type>Friendly</type>
+        <place>Liverpool</place>
+        <opponent>Liverpool</opponent>
+        <time>12:30</time>
+    </match>
+    <match>
+        <type>Friendly</type>
+        <place>Liverpool</place>
+        <opponent>Liverpool</opponent>
+        <time>12:30</time>
+    </match>
+    <match>
+        <type>Friendly</type>
+        <place>Liverpool</place>
+        <opponent>Liverpool</opponent>
+        <time>12:30</time>
+    </match>
+    <match>
+        <type>Friendly</type>
+        <place>Liverpool</place>
+        <opponent>Liverpool</opponent>
+        <time>12:30</time>
+    </match>
+    <match>
+        <type>Friendly</type>
+        <place>Liverpool</place>
+        <opponent>Liverpool</opponent>
+        <time>12:30</time>
+    </match>
+</matches>
