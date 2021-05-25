@@ -19,4 +19,22 @@
         <position>Midfielder</position>
         <number>69</number>
     </player>
+    <player>
+        <firstName>Mihai</firstName>
+        <lastName>Avram</lastName>
+        <position>Midfielder</position>
+        <number>69</number>
+    </player>
+    <player>
+        <firstName>Mihai</firstName>
+        <lastName>Avram</lastName>
+        <position>Midfielder</position>
+        <number>69</number>
+    </player>
+     <player>
+        <firstName>Mihai</firstName>
+        <lastName>Avram</lastName>
+        <position>Midfielder</position>
+        <number>69</number>
+    </player>
 </players>
